@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ScriptEd Hackathon</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Boostrap here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Your CSS Linked Below-->
+    <link rel="stylesheet" href="/styles.css">
+    <!-- Custom Font -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <!-- jQuery Linked Below-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your Javascript Linked Below-->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>The Toaster Maze</h1>
+    <!-- --------------------------PART OF THE HTML THAT CHANGES-------------------------- -->
+    <div class="container">
+      <div class="row justify-content-center">
+      </div>
+      <div class="row justify-content-center">
+        <button  id="play" class="btn btn-outline-success my-2 my-sm-0">Play</button>
+      </div>
+    </div>
+    <!-- -------------------------- END OF THE SECTION -------------------------- -->
+    <nav id="option" class="navbar fixed-bottom navbar-light bg-light">
+      <a class="navbar-brand" href="#">Options</a>
+                               
+        <!--- MOVE BUTTONS--->
+        <ul class="navbar-nav mr-auto">
+          <li>
+            <button class="move">LEFT</button>
+            <button class="move">RIGHT</button>
+            <button class="move">FORWARD</button>
+            <button class="move">BACK</button>
+            <button id="toast">TOAST</button>
+            <button id="loot">LOOT</button>
+            <p>Toast-O-Meter: <span id="toastCounter">5</span></p>
+          </li>
+      </ul>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+h1 {
+  color: black;
+}
+.navbar {
+  background-color: #1ecc52;
+}
+body {
+  font-family: "Press Start 2P";
+}
+.container {
+  margin-bottom: 130px;
+}
+.move {
+  background-color: #B0C4DE;
+}
+#loot, #toast {
+  background: linear-gradient(yellow, red);
+}
+.shoot {
+  background: linear-gradient(white, lightblue);
+}
